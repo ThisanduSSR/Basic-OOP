@@ -28,5 +28,8 @@ public class RectangleQ {
     public double getPerimeter() {
         return 2*length+2*width;
     }
-
+    @Override
+    public String toString() {
+        return("Area:"+ getArea() + "Perimeter:"+getPerimeter() );
+    }
 }
