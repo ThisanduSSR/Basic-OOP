@@ -12,6 +12,11 @@ public class TestQ {
         System.out.println("Director surname:"+director.getSurname());
         System.out.println("Director dob:"+director.getDob().getDate());
         System.out.println("Director number of movies:"+director.getNumDirectedMovie());
+
+        MovieQ movie = new MovieQ("Avatar", "Sci-fi", director);
+        movie.setNumAward(5);
+
+        System.out.println(movie);
     }
 
 }
