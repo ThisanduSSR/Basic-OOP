@@ -4,7 +4,7 @@ public class DirectorQ {
     private String name;
     private String surname;
     private int numDirectedMovie;
-    private int dob;
+    private DateQ dob;
 
     public DirectorQ(String name, String surname){
         this.name = name;
@@ -16,7 +16,7 @@ public class DirectorQ {
     public String getSurname() {
         return surname;
     }
-    public void setDob(int dob) {
+    public void setDob(DateQ dob) {
         this.dob = dob;
     }
     public void setNumDirectedMovie(int numDirectedMovie) {
@@ -25,7 +25,7 @@ public class DirectorQ {
     public int getNumDirectedMovie() {
         return numDirectedMovie;
     }
-    public int getDob(){
+    public DateQ getDob(){
         return dob;
     }
     @Override
