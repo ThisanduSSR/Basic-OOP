@@ -8,6 +8,10 @@ public class TestQ {
         director.setNumDirectedMovie(23);
 
         System.out.println(director);
+        System.out.println("Director name:"+ director.getName());
+        System.out.println("Director surname:"+director.getSurname());
+        System.out.println("Director dob:"+director.getDob().getDate());
+        System.out.println("Director number of movies:"+director.getNumDirectedMovie());
     }
 
 }
