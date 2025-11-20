@@ -17,6 +17,10 @@ public class TestQ {
         movie.setNumAward(5);
 
         System.out.println(movie);
-    }
 
+        System.out.println("Movie title:"+movie.getTitle());
+        System.out.println("Movie category:"+movie.getCategory());
+        System.out.println("Movie director:"+movie.getDirector());
+        System.out.println("Movie awards:"+ movie.getNumAward());
+    }
 }
