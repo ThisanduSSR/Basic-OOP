@@ -9,7 +9,7 @@ public class Circle4 {
     }
     public Circle4(double r, String color){
         radius = r;
-        color = color;
+        this.color = color;
     }
     public double getRadius() {
         return radius;
