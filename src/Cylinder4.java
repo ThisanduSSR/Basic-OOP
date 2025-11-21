@@ -2,6 +2,7 @@ public class Cylinder4 extends Circle4{
     private double height = 1.0;
 
     public Cylinder4() {
+        super();
     }
     public Cylinder4(double height){
         super();
