@@ -1,3 +1,4 @@
+package first;
 public abstract class GameCharacter {
     public abstract void jump();
     public abstract void run();
