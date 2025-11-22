@@ -16,6 +16,10 @@ public class Cylinder4 extends Circle4{
         super(radius,color);
         this.height = height;
     }
+    @Override
+    public double getArea() {
+        return 2*Math.PI*getRadius() * height + 2*super.getArea();
+    }
     public double getHeight() {
         return height;
     }
