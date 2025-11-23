@@ -7,5 +7,14 @@ public class StudentQ extends PersonQ{
         super(myName,myAge,myGender);
         this.idNo = idNo;
     }
+    public int getIdNo() {
+        return idNo;
+    }
+    public int getFee() {
+        return fee;
+    }
+    public int getGrade() {
+        return grade;
+    }
 
 }
