@@ -16,5 +16,14 @@ public class StudentQ extends PersonQ{
     public int getGrade() {
         return grade;
     }
+    public void setIdNo(int idNo) {
+        this.idNo = idNo;
+    }
+    public void setFee(int fee){
+        this.fee = fee;
+    }
+    public void setGrade(int grade){
+        this.grade = grade;
+    }
 
 }
