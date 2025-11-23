@@ -7,6 +7,12 @@ public class TeacherQ extends PersonQ{
         this.subject = subject;
         this.salary = salary;
     }
+    public int getSalary(){
+        return salary;
+    }
+    public String getSubject(){
+        return subject;
+    }}
 
 
 }
