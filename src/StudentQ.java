@@ -25,5 +25,8 @@ public class StudentQ extends PersonQ{
     public void setGrade(int grade){
         this.grade = grade;
     }
+    public String tString(){
+        return super.getMyName()+" "+super.getMyAge()+" "+super.getMyGender();
+    }
 
 }
