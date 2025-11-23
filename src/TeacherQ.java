@@ -12,7 +12,11 @@ public class TeacherQ extends PersonQ{
     }
     public String getSubject(){
         return subject;
-    }}
-
-
+    }
+    public void setSalary(int salary){
+        this.salary = salary;
+    }
+    public void setSubject(String subject){
+        this.subject = subject;
+    }
 }
